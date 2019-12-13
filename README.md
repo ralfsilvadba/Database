@@ -26,3 +26,4 @@ This repository is intended to store the history of procedures and scripts used 
   * [manual_sqlTune.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/manual_sqlTune.sql) - Execution package sqlTune in command line
   * [undo_advisory.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/undo_advisory.sql) - Show information about recommended size for undo tablespace
   * [vodtf.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/vodtf.sql) - Show information about all objects in specified datafile
+  * [io_calibrate.sql](io_calibrate.sql) - Measure throughput statistics of storage.
