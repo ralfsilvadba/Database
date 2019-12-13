@@ -1,0 +1,2 @@
+srvctl add database –d <DB_NAME> -o <ORACLE_HOME> -p <SPFILE_FULL_PATH> -s OPEN -t IMMEDIATE -a <DG_NAME>,<DG_NAME>
+srvctl add instance -d <DB_NAME> -i <INST_NAME> -n <NODE_NAME>
