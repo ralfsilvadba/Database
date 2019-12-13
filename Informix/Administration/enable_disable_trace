@@ -1,0 +1,5 @@
+--Enable
+onmode -Y <SESSION_SID> 1 /tmp/trace_session.out
+
+--Disable
+onmode -Y <SESSION_SID> 0
