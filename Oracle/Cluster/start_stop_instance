@@ -1,0 +1,2 @@
+srvctl start instance -d <DB_NAME> -i <INSTANCE_NAME>
+srvctl stop instance -d <DB_NAME> -i <INSTANCE_NAME>
