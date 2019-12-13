@@ -75,3 +75,8 @@ This repository is intended to store the history of procedures and scripts used 
   * [session_temp_consuming](Informix/Administration/session_temp_consuming) - Show informations about temp consuming
   * [sql_executed_session](Informix/Administration/sql_executed_session) - Show all informations about sessions and sql
   * [start_stop_informix](Informix/Administration/start_stop_informix) - Start/Stop informix instance
+  
+* [Backup](Informix/Backup)
+  
+  * [backup_log](Informix/Backup/backup_log) - Script to take backup log
+  * [hot_backup_level_0](Informix/Backup/hot_backup_level_0) - Script to take backup full
