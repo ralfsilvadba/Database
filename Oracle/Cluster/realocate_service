@@ -1,0 +1,1 @@
+crsctl relocate resource <resource_name> -s <source_node> -n <dest_node> -f
