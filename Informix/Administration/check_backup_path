@@ -1,0 +1,1 @@
+cat /opt/informix/etc/onconfig |grep TAPEDEV
