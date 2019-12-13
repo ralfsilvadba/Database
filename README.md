@@ -7,7 +7,7 @@ This repository is intended to store the history of procedures and scripts used 
   * [ts_used.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/ts_used.sql) - Show basic informations about free, used and total space of all tablespaces
   * [ts_datafile.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/ts_datafile.sql) - Show informations about datafiles of the specified tablespace 
   * [ts_tempfile.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/ts_tempfile.sql) - Show informations about tempfile of the specified temporary tablespace
-  * [ts_extent.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/ts_extent.sql)  - Show informations about name, object_type, size and number of total extent allocation of specified tablespace
+  * [ts_extent.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/ts_extent.sql)  - Show informations about name, object_type, size and number of total extent allocation in specified tablespace
   * [bkpa.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/bkpa.sql) - Show informations about size, eleapsed time of backup archived log
   * [bkpf.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/bkpf.sql) - Show informations about size, eleapsed time, status and type of backup full
   * [bkpr.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/bkpr.sql) - Show informations about estimated completion time to restore database
