@@ -1,0 +1,27 @@
+set lines 1000
+set pages 1000
+column OWNER format a30
+column SEGMENT_NAME format a30
+column TABLESPACE_NAME format a25
+column SEGMENT_TYPE format a20
+compute sum of BYTES on report
+break on report
+
+SELECT OWNER,
+        SEGMENT_NAME,
+        SEGMENT_TYPE,
+        TABLESPACE_NAME,
+        SUM(BYTES)/1024/1024 BYTES,
+        COUNT(*) "SEGMENTS"
+FROM DBA_EXTENTS
+WHERE TABLESPACE_NAME='&1'
+        --AND SEGMENT_TYPE = 'TABLE'
+        --AND
+        --SEGMENT_NAME IN ('TRANSACAO_P2K')
+GROUP BY OWNER,
+        SEGMENT_NAME,
+        SEGMENT_TYPE,
+        TABLESPACE_NAME
+--HAVING SUM(BYTES)/1024/1024 >=501
+        --AND SUM(BYTES)/1024/1024 <= 1024
+ORDER BY BYTES,OWNER,SEGMENT_NAME;
