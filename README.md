@@ -34,4 +34,4 @@ This repository is intended to store the history of procedures and scripts used 
 * [Configuration](Oracle/Configuration)
   
   * [hugepages_setting.sh](Oracle/Configuration/hugepages_setting.sh) - Script to calculate number of hugepages
-  * [hugepages_step_by_step.txt](Oracle/Configuration/hugepages_step_by_step.txt) - Step by Step used by me to configure Hugepages in database
+  * [hugepages_step_by_step.txt](Oracle/Configuration/hugepages_step_by_step.txt) - Step by Step used to configure Hugepages in database
