@@ -1,0 +1,47 @@
+1) Disable Automatic Memory Management (AMM)
+
+AMM is not compatible with HugePages. I disabled it by setting the following memory-related initialization parameters:
+
+ALTER SYSTEM SET memory_max_target=0 SCOPE=SPFILE; SID='*';
+
+ALTER SYSTEM SET memory_target=0 SCOPE=SPFILE SID='*';
+
+ALTER SYSTEM SET sga_max_size=4G SCOPE=SPFILE SID='*';
+
+ALTER SYSTEM SET sga_target=4G SCOPE=SPFILE SID='*';
+
++ restart the instance
+
+2) Calculate the number of HugePages needed
+
+The size of one HugePage can be found as follows:
+
+$ cat /proc/meminfo|grep Hugepagesize
+Hugepagesize: 2048 kB
+
+
+$ ./hugepages_settings.sh
+or
+$ uname26 ./hugepages_settings.sh
+Recommended setting: vm.nr_hugepages = 4106
+
+3) Set the number of HugePages in /etc/sysctl.conf
+
+vm.nr_hugepages = 4106	
+
+
+4) Set the memory limits for user "oracle" (The memory limits for user “oracle” can be calculated by multiplying the number of HugePages with the Hugepagesize (so, in my case, 4106*2048 = 4122624)) in /etc/security/limits.conf
+
+oracle   hard   memlock <NEW_VALUE> 
+oracle   soft   memlock <NEW_VALUE>     
+
+
+4) As root user reload configuration
+sysctl -p
+sysctl -a
+
+
+5) If the previous step is not working reboot your system.
+
+6) Check total number of hugepages allocated
+$ cat /proc/meminfo|grep Hugepagesize
