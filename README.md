@@ -19,5 +19,6 @@ This repository is intended to store the history of procedures and scripts used 
   * [vsqlid.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/vsqlid.sql) - Show informations about sql_id and prev_sql_id of sessions
   * [vsqltext.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/vsqltext.sql) - Show informations about text of sql_id
   * [trace.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/trace.sql) - Enable basic trace at specified session
+  * [purge_explan.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/purge_explan.sql) - Purge execution plan from memory of database
 
 
