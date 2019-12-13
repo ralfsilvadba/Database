@@ -1,0 +1,1 @@
+onstat -c onstat -g wai -r 1| grep logbf
