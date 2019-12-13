@@ -75,6 +75,7 @@ This repository is intended to store the history of procedures and scripts used 
   * [session_temp_consuming](Informix/Administration/session_temp_consuming) - Show informations about temp consuming
   * [sql_executed_session](Informix/Administration/sql_executed_session) - Show all informations about sessions and sql
   * [start_stop_informix](Informix/Administration/start_stop_informix) - Start/Stop informix instance
+  * [add_chunk](Informix/Administration/add_chunk) - Script add new chunk to dbspace
   
 * [Backup](Informix/Backup)
   
