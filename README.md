@@ -78,6 +78,7 @@ This repository is intended to store the history of procedures and scripts used 
   * [add_chunk](Informix/Administration/add_chunk) - Script add new chunk to dbspace
   * [check_backup_path](Informix/Administration/check_backup_path) - Script check path backup full
   * [check_log_backup_path](Informix/Administration/check_log_backup_path) - Script check path log backup
+  * [check_logbuff_wait](Informix/Administration/check_logbuff_wait) - Script check buffer log wait
   
 * [Backup](Informix/Backup)
   
