@@ -2,7 +2,7 @@
 This repository is intended to store the history of procedures and scripts used in various databases.
 
 ### Oracle
-* [Administration](Oracle/Administration) - List of scripts used by me for dayli maintenance in Oracle database.
+* [Administration](Oracle/Administration)
 
   * [ts_used.sql](Oracle/Administration/ts_used.sql) - Show basic informations about free, used and total space of all tablespaces
   * [ts_datafile.sql](Oracle/Administration/ts_datafile.sql) - Show informations about datafiles of the specified tablespace 
@@ -30,3 +30,8 @@ This repository is intended to store the history of procedures and scripts used 
   * [vparam.sql](Oracle/Administration/vparam.sql) - Show informations about parameters of database
   * [vhparam.sql](Oracle/Administration/vhparam.sql) - Show informations about hidden parameters of database
   * [vqtable.sql](Oracle/Administration/vqtable.sql) - Show informations about active query execution in specified table
+
+* [Configuration](Oracle/Configuration)
+  
+  * [hugepages_setting.sh](hugepages_setting.sh) - Script to calculate number of hugepages
+  * [hugepages_step_by_step.txt](hugepages_step_by_step.txt) - Step by Step used by me to configure Hugepages in database
