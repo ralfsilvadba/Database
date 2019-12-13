@@ -24,3 +24,4 @@ This repository is intended to store the history of procedures and scripts used 
   * [redo_advisory.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/redo_advisory.sql) - Show informations about recommended size for redo log groups
   * [restore_statistics.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/restore_statistics.sql) - Restore statistics of table
   * [manual_sqlTune.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/manual_sqlTune.sql) - Execution package sqlTune in command line
+  * [undo_advisory.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/undo_advisory.sql) - Show information about recommended size for undo tablespace
