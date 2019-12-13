@@ -27,3 +27,6 @@ This repository is intended to store the history of procedures and scripts used 
   * [undo_advisory.sql](Oracle/Administration/undo_advisory.sql) - Show information about recommended size for undo tablespace
   * [vodtf.sql](Oracle/Administration/vodtf.sql) - Show information about all objects in specified datafile
   * [io_calibrate.sql](Oracle/Administration/io_calibrate.sql) - Measure throughput statistics of storage.
+  * [vparam.sql](Oracle/Administration/vparam.sql) - Show informations about parameters of database
+  * [vhparam.sql](vhparam.sql) - Show informations about hidden parameters of database
+  
