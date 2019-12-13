@@ -1,0 +1,2 @@
+srvctl stop scan_listener
+srvctl start scan_listener
