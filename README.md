@@ -45,3 +45,18 @@ This repository is intended to store the history of procedures and scripts used 
   * [archive.sh](Oracle/Rman/archive.sh) - Script used in linux to execute rman backup archive log
   * [crosscheck_backup.cmd](Oracle/Rman/crosscheck_backup.cmd) - Script to run crosscheck stored in rman catalog
   * [crosscheck_backup.sh](Oracle/Rman/crosscheck_backup.sh) - Script used in linux to execute rman crosscheck
+
+* [Cluster](Oracle/Cluster)
+
+ * [config_database](Oracle/Cluster/config_database) - Show informations about service configuration database
+ * [config_scan_listener](Oracle/Cluster/config_scan_listener) - Show informations about scan listener
+ * [create_service_database](Oracle/Cluster/create_service_database) - Create service for database
+ * [modify_oh_database](Oracle/Cluster/modify_oh_database) - Modify path of Oracle home
+ * [modify_spfile_database](Oracle/Cluster/modify_spfile_database) - Modify path of spfile
+ * [realocate_service](Oracle/Cluster/realocate_service) - Realocate service to another node
+ * [start_stop_database](Oracle/Cluster/start_stop_database) - Start/Stop database via service
+ * [start_stop_diskgroup](Oracle/Cluster/start_stop_diskgroup) - Start/Stop diskgroup via service
+ * [start_stop_instance](Oracle/Cluster/start_stop_instance) - Start/Stop instance via service
+ * [start_stop_listener](Oracle/Cluster/start_stop_listener) - Start/Stop listener via service
+ * [start_stop_scan_listener](Oracle/Cluster/start_stop_scan_listener) - Start/Stop scan listener via service
+ * [status_resource_cluster](Oracle/Cluster/status_resource_cluster) - Show all informations about resources registered in cluster
