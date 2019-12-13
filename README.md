@@ -39,3 +39,7 @@ This repository is intended to store the history of procedures and scripts used 
 * [Rman](Oracle/Rman)
   
   * [restore_database_from_veeam.sql](Oracle/Rman/restore_database_from_veeam.sql) - How to restore backup from Veeam One
+  * [bkp_archive_log.cmd](Oracle/Rman/bkp_archive_log.cmd) - Script to take backup full stored in rman catalog
+  * [bkp_hot_level_0.cmd](Oracle/Rman/bkp_hot_level_0.cmd) - Script to take backup archive log stored in rman catalog
+  * [hot_db_diario.sh](Oracle/Rman/hot_db_diario.sh) - Script used in linux to execute rman backup full
+  * [archive.sh](Oracle/Rman/archive.sh) - Script used in linux to execute rman backup archive log
