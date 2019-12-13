@@ -1,0 +1,1 @@
+srvctl config scan_listener
