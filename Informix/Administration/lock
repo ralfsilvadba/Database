@@ -1,0 +1,10 @@
+--List sesssion ordered by total number of locks
+onstat -u | sort -rn -k 8 | more
+
+--Show session locks by tables
+select t.username waituser, t.sid waitsess, s.username hasuser,
+s.sid hassess, l.type locktype, l.dbsname database,
+l.tabname table, hex(l.rowidlk) rowid
+from sysmaster:syslocks l, sysmaster:syssessions s, sysmaster:syssessions t
+where s.sid = l.owner and l.tabname ='<TABLE_NAME>'
+and l.waiter = t.sid ;
