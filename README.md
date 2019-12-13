@@ -18,6 +18,6 @@ This repository is intended to store the history of procedures and scripts used 
   * [vsa.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/vsa.sql) - Show informations about all sessions of database
   * [vsqlid.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/vsqlid.sql) - Show informations about sql_id and prev_sql_id of sessions
   * [vsqltext.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/vsqltext.sql) - Show informations about text of sql_id
-  * [trace.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/trace.sql) - Enable trace at specified session
+  * [trace.sql](https://github.com/ralfsilvadba/Database/tree/master/Oracle/Administration/trace.sql) - Enable basic trace at specified session
 
 
