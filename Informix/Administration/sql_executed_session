@@ -1,0 +1,1 @@
+onstat -g ses 0 > onstat.log
