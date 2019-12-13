@@ -1,0 +1,3 @@
+touch <chunk_name>
+chmod 660 <chunk_name>
+onspaces -a <db_space> -p <CHUCNK_NAME_WITH_FULL_PATH> -o 0 -s <SIZE_IN_BYTES>
