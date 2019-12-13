@@ -1,0 +1,1 @@
+srvctl config database -d <DB_NAME>
