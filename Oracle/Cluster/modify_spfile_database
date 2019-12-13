@@ -1,0 +1,1 @@
+srvctl modify database -d <DB_NAME> -p <SPFILE_FULLPATH>
