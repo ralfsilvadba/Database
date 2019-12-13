@@ -1,0 +1,2 @@
+srvctl start database -d <DB_NAME>
+srvctl stop database -d <DB_NAME>
