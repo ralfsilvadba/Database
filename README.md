@@ -10,13 +10,13 @@ This repository is intended to store the history of procedures and scripts used 
   * bkpa.sql - Show informations about size, eleapsed time of backup archived log
   * bkpf.sql - Show informations about size, eleapsed time, status and type of backup full
   * bkpr.sql - Show informations about estimated completion time to restore database
-  * sf.sql
-  * vdg.sql
-  * vl.sql
-  * vlfg.sql
-  * vsa.sql
-  * vsqlid.sql
-  * vsqltext.sql
+  * sf.sql - Show informations about long operations
+  * vdg.sql - Show informations about free, used and total space of diskgroup
+  * vl.sql - Show informations about locks
+  * vlfg.sql - Show informations about size, status of redo log groups
+  * vsa.sql - Show informations about all sessions of database
+  * vsqlid.sql - Show informations about sql_id and prev_sql_id of sessions
+  * vsqltext.sql - Show informations about text of sql_id
   
 
 
