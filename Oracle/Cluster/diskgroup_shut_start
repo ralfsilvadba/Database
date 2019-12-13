@@ -1,0 +1,7 @@
+--Stop
+srvctl stop diskgroup -g <DG_NAME>
+srvctl disable diskgroup -g <DG_NAME>
+
+--Start
+srvctl start diskgroup -g <DG_NAME>
+srvctl enable diskgroup -g <DG_NAME>
