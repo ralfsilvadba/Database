@@ -60,3 +60,18 @@ This repository is intended to store the history of procedures and scripts used 
   * [start_stop_listener](Oracle/Cluster/start_stop_listener) - Start/Stop listener via service
   * [start_stop_scan_listener](Oracle/Cluster/start_stop_scan_listener) - Start/Stop scan listener via service
   * [status_resource_cluster](Oracle/Cluster/status_resource_cluster) - Show all informations about resources registered in cluster
+  
+### Informix
+* [Administration](Informix/Administration)
+
+  * [active_sessions](Informix/Administration/active_sessions/) - Show informations about active sessions
+  * [alert_log](Informix/Administration/alert_log) - Show informations about Alert log
+  * [check_cpu_consuming.sh](Informix/Administration/check_cpu_consuming.sh) - Script list sessions by cpu consuming
+  * [check_hadr](Informix/Administration/check_hadr) - Show informations about Informix replication (HADR)
+  * [chunk_list](Informix/Administration/chunk_list) - Show information about chunck files
+  * [enable_disable_trace](Informix/Administration/enable_disable_trace) - Enable/Disable trace at session
+  * [lock](Informix/Administration/lock) - Show informations about lock
+  * [log_status](Informix/Administration/log_status) - Show informations about redo log
+  * [session_temp_consuming](Informix/Administration/session_temp_consuming) - Show informations about temp consuming
+  * [sql_executed_session](Informix/Administration/sql_executed_session) - Show all informations about sessions and sql
+  * [start_stop_informix](Informix/Administration/start_stop_informix) - Start/Stop informix instance
