@@ -1,0 +1,1 @@
+srvctl modify database -d <DB_NAME> -o <ORACLE_HOME>
