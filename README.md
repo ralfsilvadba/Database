@@ -28,5 +28,5 @@ This repository is intended to store the history of procedures and scripts used 
   * [vodtf.sql](Oracle/Administration/vodtf.sql) - Show information about all objects in specified datafile
   * [io_calibrate.sql](Oracle/Administration/io_calibrate.sql) - Measure throughput statistics of storage.
   * [vparam.sql](Oracle/Administration/vparam.sql) - Show informations about parameters of database
-  * [vhparam.sql](vhparam.sql) - Show informations about hidden parameters of database
-  
+  * [vhparam.sql](Oracle/Administration/vhparam.sql) - Show informations about hidden parameters of database
+  * [vqtable.sql](Oracle/Administration/vqtable.sql) - Show informations about active query execution in specified table
