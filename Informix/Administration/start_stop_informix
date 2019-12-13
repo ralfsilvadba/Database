@@ -1,0 +1,5 @@
+--start
+oninit -v
+
+--stop
+onmode -ulcky
