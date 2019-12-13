@@ -15,7 +15,7 @@ select NAME,
         TOTAL_MB-FREE_MB USADO,
         round((FREE_MB/TOTAL_MB)*100) "% FREE"
 from v$ASM_DISKGROUP
-order by 5 ;
+order by 5;
 
 ttitle off
 clear columns
