@@ -1,0 +1,6 @@
+srvctl stop listener
+srvctl start listener
+
+--Local node
+srvctl stop listener -n <NODE_NAME>
+srvctl start listener -n <NODE_NAME>
