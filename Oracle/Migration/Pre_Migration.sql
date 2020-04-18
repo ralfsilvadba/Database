@@ -1,4 +1,8 @@
 --PreMigration
+--Configure logs
+--Configure parameters
+--Configure UNDO, TEMP, SYSTEM, SYSAUX
+--Configure Profile
 --Disable block changing tracking
 DECLARE
 vCheck varchar2(10) :='';
