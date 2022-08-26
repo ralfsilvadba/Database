@@ -21,6 +21,11 @@ SET DEFINE on
 --/@
 
 
+
+--View e sinonimo para ser criado no banco de dados.
+CREATE VIEW SYS.PUBLIC_DEPENDENCY AS select d.d_obj#, d.p_obj# from dependency$ d;
+
+create public synonym PUBLIC_DEPENDENCY for sys.PUBLIC_DEPENDENCY
 --Sequence para ser criada no banco de dados.
 CREATE SEQUENCE deptree_seq;
 --Tabela para ser criada no banco de dados.
