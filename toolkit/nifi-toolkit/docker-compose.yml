@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+
+  nifi:
+    build: ./nifi
+    ports:
+      - "8080:8080/tcp"
+      - "8443:8443/tcp"
+      - "514:514/tcp"
+      - "514:514/udp"
+      - "2055:2055/tcp"
+    volumes:
+        - ./nifi/ojdbc8-21.5.0.0.jar:/opt/nifi/nifi-current/lib/ojdbc8-21.5.0.0.jar
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 250M
+
+networks:
+  default:
+    name: integration-network
+    driver: bridge
