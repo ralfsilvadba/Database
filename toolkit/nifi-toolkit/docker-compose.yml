@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+
+  nifi:
+    cap_add:
+     - NET_ADMIN
+    build: ./nifi
+    environment:
+      - SINGLE_USER_CREDENTIALS_USERNAME=admin
+      - SINGLE_USER_CREDENTIALS_PASSWORD=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
+    container_name: nifi
+    ports:
+     - "8080:8080/tcp"
+     - "8443:8443/tcp"
+     - "514:514/tcp"
+     - "514:514/udp"
+     - "2055:2055/udp"
+    volumes:
+        - ./nifi/ojdbc8-21.5.0.0.jar:/opt/nifi/nifi-current/lib/ojdbc8-21.5.0.0.jar
+    restart: unless-stopped
+
+networks:
+  default:
+    name: integration-network
+    driver: bridge
